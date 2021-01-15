@@ -1,0 +1,22 @@
+.login {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+}
+.login > img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.login_button {
+  text-transform: inherit !important;
+  color: white !important;
+  background-color: #7289da !important;
+}
+
+.login_button:hover {
+  text-transform: inherit !important;
+  color: #7289da !important;
+  background-color: #36393f !important;
+}

@@ -1,0 +1,81 @@
+.bodyMain {
+  flex: 0.8;
+  background-color: #36393f;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.bodyMain_header {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05),
+    0 2px 0 rgba(4, 4, 5, 0.05);
+}
+
+.bodyMain_header > span {
+  font-size: 25px;
+  padding-right: 10px;
+  color: #72767d;
+}
+
+.bodyMain_header > h1 {
+  font-size: 16px;
+  flex: 1;
+  color: #fff;
+}
+.bodyMain_header .empty {
+  flex: 1;
+}
+.bodyMain_header .logout {
+  color: white !important;
+  background-color: #7289da !important;
+}
+
+.bodyMain_contents {
+  overflow-y: auto;
+  flex: 1;
+}
+.bodyMain_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #40444b;
+}
+
+.bodyMain_footer > form {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.bodyMain_footer > form > input {
+  outline-width: 0;
+  color: #dcddde;
+  height: 20px;
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+
+.bodyMain_footer .MuiSvgIcon-root {
+  color: #b9bbbe;
+  margin-right: 5px;
+}
+
+.bodyMain_footer > form > button {
+  display: none;
+}
+
+.homeImg {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
