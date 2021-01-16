@@ -23,9 +23,12 @@ function Sidebar() {
 
   const addServer = () => {
     const serverName = prompt("Enter the name for server");
-    db.collection("servers").add({
-      name: serverName,
-    });
+
+    if (serverName) {
+      db.collection("servers").add({
+        name: serverName,
+      });
+    }
   };
 
   return (
